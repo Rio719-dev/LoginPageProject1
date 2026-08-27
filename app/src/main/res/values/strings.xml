@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SecureLoginApp</string>
+    <string name="account_creation_title">Account Creation</string>
+    <string name="login_title">Login</string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_birthday">Birthday (MM/DD/YYYY)</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_email">Email Address (Username)</string>
+    <string name="hint_mobile">Mobile Phone Number</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+
+    <string name="label_access_type">Access Type</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_reset_password">Reset Password</string>
+
+    <string name="link_forgot_password">Forgot Password?</string>
+    <string name="link_signup">Don\'t have an account? Sign Up</string>
+    <string name="link_login">Already have an account? Login</string>
+
+    <string name="error_email_exists">Email already registered</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_password_weak">Password does not meet requirements</string>
+    <string name="error_invalid_login">Invalid email or password</string>
+    <string name="error_password_reuse">You cannot reuse an old password</string>
+
+    <string name="password_strength_weak">Weak</string>
+    <string name="password_strength_average">Average</string>
+    <string name="password_strength_strong">Strong</string>
+
+    <string-array name="access_types">
+        <item>Super Admin</item>
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+</resources>
