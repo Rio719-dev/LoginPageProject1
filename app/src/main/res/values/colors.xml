@@ -2,4 +2,26 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Light theme palette -->
+    <color name="brand_primary">#2457C5</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_secondary">#4E71D4</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+
+    <color name="background_light">#F3F5FA</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="surface_variant_light">#E7ECF5</color>
+    <color name="on_surface_light">#1A1C1E</color>
+    <color name="on_surface_variant_light">#5C6370</color>
+    <color name="outline_light">#D3DAE6</color>
+
+    <color name="success_light">#1E8E5A</color>
+    <color name="warning_light">#B26A00</color>
+    <color name="danger_light">#C62828</color>
+
+    <!-- Role badge accents -->
+    <color name="role_super_admin">#8E24AA</color>
+    <color name="role_admin">#F9A825</color>
+    <color name="role_user">#2457C5</color>
 </resources>

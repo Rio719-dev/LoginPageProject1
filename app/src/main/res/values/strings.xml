@@ -1,36 +1,64 @@
 <resources>
-    <string name="app_name">SecureLoginApp</string>
-    <string name="account_creation_title">Account Creation</string>
-    <string name="login_title">Login</string>
-
-    <string name="hint_name">Full Name</string>
-    <string name="hint_birthday">Birthday (MM/DD/YYYY)</string>
+    <string name="app_name">Secure Login</string>
+    <string name="account_creation_title">Create your account</string>
+    <string name="login_title">Welcome back</string>
+    <string name="login_subtitle">Sign in to continue</string>
+    <string name="no_account_prompt">Don’t have an account?</string>
+    <string name="link_signup_short">Sign up</string>
+    <string name="resend_code">Resend code</string>
+    <string name="hint_name">Full name</string>
+    <string name="hint_birthday">Birthday</string>
     <string name="hint_address">Address</string>
-    <string name="hint_email">Email Address (Username)</string>
-    <string name="hint_mobile">Mobile Phone Number</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_username">Username (same as email)</string>
+    <string name="hint_mobile">Philippine mobile number</string>
     <string name="hint_password">Password</string>
-    <string name="hint_confirm_password">Confirm Password</string>
-
-    <string name="label_access_type">Access Type</string>
-    <string name="btn_signup">Sign Up</string>
-    <string name="btn_login">Login</string>
-    <string name="btn_logout">Logout</string>
-    <string name="btn_reset_password">Reset Password</string>
-
-    <string name="link_forgot_password">Forgot Password?</string>
-    <string name="link_signup">Don\'t have an account? Sign Up</string>
-    <string name="link_login">Already have an account? Login</string>
-
-    <string name="error_email_exists">Email already registered</string>
-    <string name="error_password_mismatch">Passwords do not match</string>
-    <string name="error_password_weak">Password does not meet requirements</string>
-    <string name="error_invalid_login">Invalid email or password</string>
-    <string name="error_password_reuse">You cannot reuse an old password</string>
-
-    <string name="password_strength_weak">Weak</string>
-    <string name="password_strength_average">Average</string>
-    <string name="password_strength_strong">Strong</string>
-
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="hint_otp">6-digit verification code</string>
+    <string name="label_access_type">Requested access type</string>
+    <string name="btn_signup">Send verification code</string>
+    <string name="btn_login">Log in</string>
+    <string name="btn_logout">Log out</string>
+    <string name="btn_reset_password">Reset password</string>
+    <string name="btn_verify_otp">Verify code</string>
+    <string name="btn_send_otp">Send reset code</string>
+    <string name="link_forgot_password">Forgot password?</string>
+    <string name="link_signup">Don’t have an account? Sign up</string>
+    <string name="link_login">Already have an account? Log in</string>
+    <string name="remember_me">Remember me</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="otp_title">Verify your email</string>
+    <string name="forgot_password_title">Forgot password</string>
+    <string name="reset_password_title">Choose a new password</string>
+    <string name="back">Back</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="dashboard_reset_password_desc">Change your account password</string>
+    <string name="dashboard_admin_section">Admin tools</string>
+    <string name="dashboard_admin_monitoring">User monitoring</string>
+    <string name="dashboard_admin_monitoring_desc">View all registered accounts and their access level</string>
+    <string name="dashboard_admin_monitoring_title">User Monitoring</string>
+    <string name="dashboard_user_management">User management</string>
+    <string name="dashboard_user_management_desc">Search users and initiate password resets</string>
+    <string name="dashboard_no_users_found">No users found</string>
+    <string name="hint_search_user">Search by email</string>
+    <string name="btn_search">Search</string>
+    <string name="access_type_prefix">Access Type: </string>
+    <string name="forgot_password_desc">Enter your registered email to receive a six-digit reset code.</string>
+    <string name="success_title">Account Created Successfully!</string>
+    <string name="success_desc">Your email was verified. Log in with your new account to continue.</string>
+    <string name="signup_subtitle">Fill in your details to get started</string>
+    <string name="access_type_approval_note">The selected access type is saved with your account.</string>
+    <string name="btn_promote_to_admin">Make Admin</string>
+    <string name="btn_demote_to_user">Remove Admin</string>
+    <string name="btn_delete_user">Delete account</string>
+    <string name="confirm_delete_user_title">Delete this account?</string>
+    <string name="confirm_delete_user_message">This permanently deletes %1$s\'s account and signs them out everywhere. This cannot be undone.</string>
+    <string name="confirm_promote_title">Grant Admin access?</string>
+    <string name="confirm_promote_message">%1$s will be able to reset their own password and view all users.</string>
+    <string name="confirm_demote_title">Remove Admin access?</string>
+    <string name="confirm_demote_message">%1$s will return to standard User access.</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
     <string-array name="access_types">
         <item>Super Admin</item>
         <item>Admin</item>
