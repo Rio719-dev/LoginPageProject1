@@ -1,63 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/light_navy_blue"
-    android:padding="24dp">
-
-    <com.google.android.material.card.MaterialCardView
-        style="@style/AlienCard"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:strokeColor="@color/alien_glow_cyan"
-        app:strokeWidth="1dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="40dp">
-
-            <ImageView
-                android:id="@+id/ivSuccessIcon"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:layout_gravity="center"
-                android:src="@android:drawable/checkbox_on_background"
-                app:tint="@color/alien_neon_green" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="24dp"
-                android:fontFamily="serif-monospace"
-                android:text="UPLINK SUCCESSFUL"
-                android:textColor="@color/alien_glow_cyan"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="Entity data synchronized with Galactic Command. Access clearance granted."
-                android:textAlignment="center"
-                android:textColor="@color/alien_star_white"
-                android:textSize="14sp" />
-
-            <Button
-                android:id="@+id/btnGoToLogin"
-                style="@style/AlienButton"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="40dp"
-                android:text="ENTER PORTAL" />
-
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="24dp"
+    android:fitsSystemWindows="true" android:background="?android:attr/colorBackground">
+    <FrameLayout android:layout_width="88dp" android:layout_height="88dp">
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/bg_role_badge" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"
+            android:text="✓" android:textSize="40sp" android:textColor="@color/white" android:textStyle="bold" />
+    </FrameLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp"
+        android:text="@string/success_title" android:textSize="24sp" android:textStyle="bold" android:textColor="?attr/colorOnSurface" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"
+        android:gravity="center" android:text="@string/success_desc" android:textColor="?attr/colorOnSurfaceVariant" />
+    <Button android:id="@+id/btnGoToLogin" android:layout_width="match_parent" android:layout_height="52dp"
+        android:layout_marginTop="28dp" app:cornerRadius="14dp" android:text="@string/btn_login" android:textAllCaps="false" />
+</LinearLayout>
